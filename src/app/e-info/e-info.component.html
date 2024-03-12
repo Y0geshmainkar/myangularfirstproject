@@ -1,0 +1,17 @@
+<div class="container">
+<button type="button" name="button" class="btn btn-dark" (click)="getInfFromService1()">Employee-1></button>
+<ul>
+    <li *ngFor="let info of infoReceive1">{{info}}</li>
+</ul>
+<button type="button" name="button" class="btn btn-dark" (click)="getInfFromService2()">Employee-2></button>
+<ul>
+    <li *ngFor="let info of infoReceive2">{{info}}</li>
+</ul>
+<button type="button" name="button" class="btn btn-dark" (click)="getInfFromService3()">Employee-3></button>
+<ul>
+    <li *ngFor="let info2 of infoReceive3">{{info2}}</li>
+</ul>
+</div>
+
+
+<button class="btn btn-outline-dark" id="id" (click)="reloadPage()">Reload</button>

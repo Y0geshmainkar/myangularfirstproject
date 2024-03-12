@@ -1,0 +1,115 @@
+
+<div class="container">
+<nav class="navbar navbar-light bg-light">
+    <p class="navbar-brand h1">
+        <img src="assets\img\pic1.svg" width="30" height="30" alt="">
+        User Registrastion
+    </p>
+
+
+    <ul class="navbar">
+        <li class="nav-link"><a href="">Home</a></li>
+        <li class="nav-link"><a href="">About</a></li>
+        <li class="nav-link"><a href="">Service</a></li>
+        <li class="nav-link"><a href="">Portfolio</a></li>
+        <li class="nav-link"><a href="">Team</a></li>
+        <li class="nav-link"><a href="">Pricing</a></li>
+        <li class="nav-link"><a href="">Contact</a></li>
+
+    </ul>
+</nav>
+
+
+<div class="container body">
+
+
+    <form (ngSubmit)="submit()">
+        <div class="form-group">
+            <label for="fisrtname">Fisrt Name</label>
+            <input type="text" required minlength="2" maxlenght="10" name="firstname" class="form-control" ngModel>
+        </div>
+
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" class="form-control " ngModel>
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" class="form-control" ngModel>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <pre></pre>
+        <div class="row">
+            <div class=" col">
+                <button type="submit" class="btn btn-light">Submit</button>
+            </div>
+            <div class="col">
+                <Button type="reset" class="btn btn-success">Reset</Button>
+            </div>
+        </div>
+
+
+        
+
+    </form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="container">
+    <div [ngSwitch]="day">
+
+        <div *ngSwitchCase=0>Today is Sunday! You deserve a break</div>
+
+        <div *ngSwitchCase='1'>
+            <h3>Today is Monday, Hope you have productive Week</h3>
+        </div>
+
+        <div *ngSwitchCase='2'>
+            <h3>Today is Tuesday, Smash your Goals</h3>
+        </div>
+
+        <div *ngSwitchCase='3'>
+            <h3>Today is Wednesday, You're already half way through</h3>
+        </div>
+
+        <div *ngSwitchCase='4'>
+            <h3>Today is Thursday, It's like Friday Lite</h3>
+        </div>
+
+        <div *ngSwitchCase=5>
+            <h3>Today is Friday, TGIF!!!</h3>
+        </div>
+
+        <div *ngSwitchCase='6'>
+            <h3>Today is Saturday, Let's Party!! :) </h3>
+        </div>
+
+        <div *ngSwitchDefault>Uh oh! Somethings wrong</div>
+
+    </div>
+</div>-->

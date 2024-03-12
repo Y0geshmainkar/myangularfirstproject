@@ -1,0 +1,27 @@
+
+
+    <div class="container">
+        <table class="table table-hover table-secondary" id="tbUser">
+            <thead class="thead-light">
+                <tr>
+                    <th>Sl.No</th>
+                    <th>Item Description</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of userData;">
+                    <!--let i =index-->
+                    <td>{{data.SLno}}</td>
+                    <td>{{data.ItemDescription}}</td>
+                    <td>{{data.Quantity}}</td>
+                    <td><button class="btn btn-dark" (click)="removedata(data)">Delete</button></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <button class="btn btn-outline-dark" id="id" (click)="reloadPage()">Reload</button>
+    </div>
+
+

@@ -1,0 +1,21 @@
+body {
+	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
+}
+
+table,
+td {
+	border: 1px solid black;
+}
+
+.a {
+	font-family: 'Courier New', Courier, monospace;
+	border: #5a5a5a;
+
+}
+.center{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
